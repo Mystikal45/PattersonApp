@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="Lunch_title">Patterson Lunch</string>
+    <string name="Day_of_Week1">Monday</string>
+    <string name="Monday_Food">Pizza</string>
+    <string name="Day_of_Week2">Tuesday</string>
+    <string name="Tuesday_Food">Cheesestakes</string>
+    <string name="Day_of_Week">Wednesday</string>
+    <string name="Wednesday_Food">Chicken</string>
 </resources>
