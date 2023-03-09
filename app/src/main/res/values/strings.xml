@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="Lunch_title">Patterson Lunch</string>
+    <string name="date">march,16 2023</string>
 </resources>
