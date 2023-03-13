@@ -8,9 +8,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/date"/>
+        android:text="march 16th, 2023"/>
 
     <TextView
-        and
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senior Meeting at 2"/>
+
+    
 
 </LinearLayout>
