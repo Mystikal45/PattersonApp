@@ -7,4 +7,8 @@
     <string name="Tuesday_Food">Cheesestakes</string>
     <string name="Day_of_Week">Wednesday</string>
     <string name="Wednesday_Food">Chicken</string>
+    <string name="title_activity_mental">Mental</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
 </resources>
