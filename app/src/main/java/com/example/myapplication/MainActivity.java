@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         lunchBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(MainActivity.this, LunchActivity);
+                Intent myIntent = new Intent(MainActivity.this, LunchActivity.class);
             }
         });
 
