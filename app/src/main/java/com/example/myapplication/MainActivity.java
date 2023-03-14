@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        seniorBTN = (Button) findViewById(R.id.searchBTN);
-        mentalBTN = (Button) findViewById(R.id.searchBTN);
-        lunchBTN = (Button) findViewById(R.id.searchBTN);
+        seniorBTN = (Button) findViewById(R.id.seniorBTN);
+        mentalBTN = (Button) findViewById(R.id.mentalBTN);
+        lunchBTN = (Button) findViewById(R.id.lunchBTN);
 
         seniorBTN.setOnClickListener(new View.OnClickListener() {
             @Override
