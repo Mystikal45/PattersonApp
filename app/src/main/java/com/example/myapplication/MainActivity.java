@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
     Button seniorBTN;
     Button mentalBTN;
     Button lunchBTN;
+    Button delaysBTN;
+    Button sportsBTN;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         seniorBTN = (Button) findViewById(R.id.seniorBTN);
         mentalBTN = (Button) findViewById(R.id.mentalBTN);
         lunchBTN = (Button) findViewById(R.id.lunchBTN);
+        delaysBTN = (Button) findViewById(R.id.delaysBTN);
+        sportsBTN = (Button) findViewById(R.id.sportsBTN);
 
         seniorBTN.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,6 +46,21 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent myIntent = new Intent(MainActivity.this, LunchActivity.class);
+            }
+        });
+        delaysBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                Intent myIntent = new Intent(MainActivity.this, DelaysActivity.class);
+                startActivity(myIntent);
+            }
+        });
+        sportsBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(MainActivity.this, SportsActivity.class);
+
+                startActivity(myIntent);
             }
         });
 
