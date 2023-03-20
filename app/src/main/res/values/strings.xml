@@ -5,4 +5,6 @@
     <string name="Monday_Food">fix later</string>
     <string name="Tuesday_Food">fix later</string>
     <string name="Wednesday_Food">fix later</string>
+    <string name="Thurday_Food">Thursday</string>
+    <string name="Friday_Food">Friday</string>
 </resources>
