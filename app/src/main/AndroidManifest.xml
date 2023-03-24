@@ -7,6 +7,9 @@
 
 
         <activity
+            android:name=".SportsActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -19,15 +22,12 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".MentalActivity"
             android:exported="false" />
-
         <activity
             android:name=".LunchActivity"
             android:exported="false" />
-
         <activity
             android:name=".SeniorActivity"
             android:exported="false" />
