@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.myapplication">
 
-    <application>
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme"
+        >
 
-
-        <activity
-            android:name=".SportsActivity"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -22,6 +22,10 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        <activity
+            android:name=".SportsActivity"
+            android:exported="false" />
         <activity
             android:name=".MentalActivity"
             android:exported="false" />
@@ -30,6 +34,9 @@
             android:exported="false" />
         <activity
             android:name=".SeniorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DelaysActivity"
             android:exported="false" />
     </application>
 
