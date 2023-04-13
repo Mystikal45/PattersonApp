@@ -6,53 +6,68 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Soccer"
-        android:textSize="45dp"
-    />
-
-    <TextView
-
+    <EditText
+        android:id="@+id/NameET"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Football"
-        android:textSize="45dp"
-        />
-    <TextView
+        android:hint="Type your name" />
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Blum"
-        android:textSize="45dp"
-        />
-    <TextView
-
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="TBQ"
-        android:textSize="45dp"
-        />
-    <Button
-        android:id="@+id/trueBTN"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email"
-        android:textSize="30dp"
-        />
 
     <LinearLayout android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_gravity="center"
-        xmlns:android="http://schemas.android.com/apk/res/android">
+        android:layout_gravity="center">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Soccer"
+            android:textSize="45dp"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Blum"
+            android:textSize="45dp"/>
+
+        <Button
+            android:id="@+id/BlumBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Football"
+            android:textSize="45dp"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="TBQ"
+            android:textSize="45dp"/>
+
+        <Button
+            android:id="@+id/tbqBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="30dp" />
 
     </LinearLayout>
 
