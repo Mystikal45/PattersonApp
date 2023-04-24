@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "793796055863",
+    "firebase_url": "https://patterson-sport-default-rtdb.firebaseio.com",
+    "project_id": "patterson-sport",
+    "storage_bucket": "patterson-sport.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793796055863:android:2d797596ddcb173019c0b2",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793796055863-fh2q1n1ekd513g389bp22p7244ut3ook.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDYYB5bYka3lDpPNoe6JYr63_h_AHUwyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793796055863-fh2q1n1ekd513g389bp22p7244ut3ook.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
