@@ -25,6 +25,7 @@
         />
 
     <Button
+        android:id="@+id/delaysBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Delay days"
@@ -38,6 +39,7 @@
         />
 
     <Button
+        android:id="@+id/sportsBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sports"
