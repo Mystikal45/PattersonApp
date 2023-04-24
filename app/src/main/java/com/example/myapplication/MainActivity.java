@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent myIntent = new Intent(MainActivity.this, LunchActivity.class);
+                startActivity(myIntent);
             }
         });
         delaysBTN.setOnClickListener(new View.OnClickListener() {

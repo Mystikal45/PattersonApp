@@ -28,11 +28,16 @@
         android:id="@+id/Monday_Food"
         />
 
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="25dp"
         android:text="Tuesday"
+
         />
 
     <TextView
@@ -40,7 +45,13 @@
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:text="@string/Tuesday_Food"
+        android:id="@+id/Tuesday_Food"
+
         />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -54,7 +65,12 @@
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:text="@string/Wednesday_Food"
+        android:id="@+id/Wednesday_Food"
         />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -67,8 +83,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="@string/Thurday_Food"
+        android:text="Pasta"
+        android:id="@+id/Thursday_Food"
         />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -81,7 +102,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="@string/Friday_Food"/>
+        android:text="@string/Friday_Food"
+        android:id="@+id/Friday_Food"
+        />
 
 
 
