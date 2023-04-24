@@ -30,7 +30,7 @@ public class SportsActivity extends AppCompatActivity {
         Sport1BTN = (Button) findViewById(R.id.Sport1BTN);
         Sport2BTN = (Button) findViewById(R.id.Sport2BTN);
         sportname1= (TextView) findViewById(R.id.Sportname1);
-        sportname2= (TextView) findViewById(R.id.Sportname1);
+        sportname2= (TextView) findViewById(R.id.Sportname2);
         Coachname1= (TextView) findViewById(R.id.Coachname1);
         Coachname2= (TextView) findViewById(R.id.Coachname2);
 
