@@ -19,14 +19,14 @@
         android:layout_gravity="center">
 
         <TextView
-
+            android:id="@+id/Sportname1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Soccer"
             android:textSize="45dp"/>
         <TextView
-
+            android:id="@+id/Coachname1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -34,7 +34,7 @@
             android:textSize="45dp"/>
 
         <Button
-            android:id="@+id/BlumBTN"
+            android:id="@+id/Sport1BTN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Email"
@@ -48,14 +48,14 @@
         android:layout_gravity="center">
 
         <TextView
-
+            android:id="@+id/Sportname2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Football"
             android:textSize="45dp"/>
         <TextView
-
+            android:id="@+id/Coachname2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -63,7 +63,7 @@
             android:textSize="45dp"/>
 
         <Button
-            android:id="@+id/tbqBTN"
+            android:id="@+id/Sport2BTN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Email"
