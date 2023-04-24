@@ -6,6 +6,7 @@
 
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,17 +21,32 @@
         android:text="Monday"
         />
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="@string/Monday_Food"
-        android:id="@+id/Monday_Food"
-        />
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/Monday_Food"
+            android:id="@+id/Monday_Food"
+            />
+
+        <Button android:id="@+id/mondayVote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vote"
+            />
+    </LinearLayout>
+
+
 
     <Space
         android:layout_width="1dp"
         android:layout_height="30dp" />
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -40,6 +56,12 @@
 
         />
 
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,6 +70,13 @@
         android:id="@+id/Tuesday_Food"
 
         />
+
+    <Button android:id="@+id/tuesdayVote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vote"
+        />
+    </LinearLayout>
 
     <Space
         android:layout_width="1dp"
@@ -60,6 +89,13 @@
         android:text="Wednesday"
         />
 
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -68,9 +104,18 @@
         android:id="@+id/Wednesday_Food"
         />
 
+    <Button android:id="@+id/wednesdayVote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vote"
+        />
+    </LinearLayout>
+
     <Space
         android:layout_width="1dp"
         android:layout_height="30dp" />
+
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -78,6 +123,11 @@
         android:textSize="25dp"
         android:text="Thursday"
         />
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
 
     <TextView
         android:layout_width="wrap_content"
@@ -87,9 +137,19 @@
         android:id="@+id/Thursday_Food"
         />
 
+    <Button android:id="@+id/thursdayVote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vote"
+        />
+
+    </LinearLayout>
+
     <Space
         android:layout_width="1dp"
         android:layout_height="30dp" />
+
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -98,6 +158,11 @@
         android:text="Friday"
         />
 
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -105,6 +170,13 @@
         android:text="@string/Friday_Food"
         android:id="@+id/Friday_Food"
         />
+
+    <Button android:id="@+id/fridayVote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vote"
+        />
+    </LinearLayout>
 
 
 
