@@ -9,6 +9,7 @@
         android:layout_height="wrap_content"
         android:textSize="40dp"
         android:text="Sunday"
+        android:id="@+id/dayOfWeekTV"
         />
 
     <TextView android:layout_width="wrap_content"
@@ -16,5 +17,6 @@
         android:textSize="40dp"
         android:text="Thank you for voting!"
         />
+
 </LinearLayout>
 
