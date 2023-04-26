@@ -6,56 +6,104 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Soccer"
-        android:textSize="45dp"
-    />
-
-    <TextView
-
+    <EditText
+        android:id="@+id/NameET"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Football"
-        android:textSize="45dp"
-        />
-    <TextView
-
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Blum"
-        android:textSize="45dp"
-        />
-    <TextView
-
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="TBQ"
-        android:textSize="45dp"
-        />
+        android:hint="Type your name" />
     <Button
-        android:id="@+id/trueBTN"
+        android:id="@+id/SendFB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Email"
-        android:textSize="30dp"
-        />
+        android:text="SendFB"
+        android:textSize="30dp" />
 
     <LinearLayout android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_gravity="center"
-        xmlns:android="http://schemas.android.com/apk/res/android">
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/Sportname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Soccer"
+            android:textSize="45dp"/>
+        <TextView
+            android:id="@+id/Coachname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Blum"
+            android:textSize="45dp"/>
+
+        <Button
+            android:id="@+id/Sport1BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="30dp" />
 
     </LinearLayout>
 
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/Sportname2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Football"
+            android:textSize="45dp"/>
+        <TextView
+            android:id="@+id/Coachname2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="TBQ"
+            android:textSize="45dp"/>
+
+        <Button
+            android:id="@+id/Sport2BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/sportname3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textSize="45dp"/>
+        <TextView
+            android:id="@+id/coachname3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textSize="45dp"/>
+
+        <Button
+            android:id="@+id/Sport3BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="30dp" />
+
+    </LinearLayout>
 
 </LinearLayout>
 
