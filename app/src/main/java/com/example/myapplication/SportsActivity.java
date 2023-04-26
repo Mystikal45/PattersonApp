@@ -115,48 +115,43 @@ public class SportsActivity extends AppCompatActivity {
             }
         });
 
-        // Read from the database
-        myRef.addValueEventListener(new ValueEventListener() {
+
+        sendFB.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                // This method is called once with the initial value and again
-                // whenever data at this location is updated.
-                // Iterate through all the children in the snapshot, t
+            public void onClick(View v) {
+                // Write a message to the database
+                String key = myRef.push().getKey();
+                myRef.child(key).setValue(sport1);
 
-                for (DataSnapshot SportSnapShot : dataSnapshot.getChildren()) {
-                    //From our snapshot, get the value of our key/value pair. This value
-                    //contains a customer object
-                    SportInfo newsport = SportSnapShot.getValue(SportInfo.class);
-                    listsport.add(newsport);
+                // Read from the database
+                myRef.addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        // This method is called once with the initial value and again
+                        // whenever data at this location is updated.
+                        // Iterate through all the children in the snapshot
+                        for (DataSnapshot SportSnapShot : dataSnapshot.getChildren()) {
+                            //From our snapshot, get the value of our key/value pair. This value
+                            //contains a SportInfo object
+                            SportInfo newsport = SportSnapShot.getValue(SportInfo.class);
+                            listsport.add(newsport);
 
-                }
+                        }
 
-                anysport=listsport.get(listsport.size()-1);
-                sportname3.setText(anysport.getSportName());
-                coachname3.setText(anysport.getCoachName());
+                        anysport=listsport.get(0);
+                        sportname3.setText(anysport.getSportName());
+                        coachname3.setText(anysport.getCoachName());
 
-            }
+                    }
 
-            @Override
-            public void onCancelled(DatabaseError error) {
-                // Failed to read value
-                Log.w("FAILEDTOREAD", "Failed to read value.", error.toException());
+                    @Override
+                    public void onCancelled(DatabaseError error) {
+                        // Failed to read value
+                        Log.w("FAILEDTOREAD", "Failed to read value.", error.toException());
+                    }
+                });
             }
         });
-//        sendFB.setOnClickListener(new View.OnClickListener() {
-//
-//            @Override
-//            public void onClick(View v) {
-//                // Write a message to the database
-//
-//                //myRef.setValue(sport1);
-//
-//
-//
-//
-//
-//            }
-//        });
 
 
 
