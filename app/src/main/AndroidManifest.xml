@@ -27,19 +27,16 @@
         <activity
             android:name=".LunchActivity"
             android:exported="false" />
-<<<<<<< HEAD
+
         <activity
             android:name=".DelaysActivity"
             android:exported="false" />
 
-=======
->>>>>>> 0abbe70d0c43682b4bd45de1294e4ad7be7f1fae
+
         <activity
             android:name=".SeniorActivity"
             android:exported="false" />
-        <activity
-            android:name=".DelaysActivity"
-            android:exported="false" />
+
     </application>
 
 </manifest>
