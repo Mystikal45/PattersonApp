@@ -58,12 +58,12 @@ public class MainActivity extends AppCompatActivity {
         });
         sportsBTN.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v){
                 Intent myIntent = new Intent(MainActivity.this, SportsActivity.class);
-
                 startActivity(myIntent);
             }
         });
+
 
     }
 }
