@@ -8,6 +8,12 @@ public class SportInfo {
     String CoachName;
     String CoachEmail;
 
+    public SportInfo() {
+        SportName = "unknown";
+        CoachName = "unknown";
+        CoachEmail = "unknown";
+    }
+
     public SportInfo(String sportName, String coachName, String coachEmail) {
         SportName = sportName;
         CoachName = coachName;
